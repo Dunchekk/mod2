@@ -1,0 +1,215 @@
+@keyframes pics {
+    0% {background: url(imgs/1back.png); }
+    9% {background: url(imgs/1back.png); }
+    10% {background: url(imgs/2back.png);}
+    19% {background: url(imgs/2back.png);}
+    20% {background: url(imgs/3back.png);}
+    29% {background: url(imgs/3back.png);}
+    30% {background: url(imgs/4back.png);}
+    39% {background: url(imgs/4back.png);}
+    40% {background: url(imgs/5back.png);}
+    49% {background: url(imgs/5back.png);}
+    50% {background: url(imgs/6back.png);}
+    59% {background: url(imgs/6back.png);}
+    60% {background: url(imgs/7back.png);}
+    69% {background: url(imgs/7back.png);}
+    70% {background: url(imgs/8back.png);}
+    79% {background: url(imgs/8back.png);}
+    80% {background: url(imgs/9back.png);}
+    89% {background: url(imgs/9back.png);}
+    90% {background: url(imgs/10back.png);}
+    100% {background: url(imgs/10back.png);}
+}
+
+@keyframes text1 {
+    0% {transform: translateX(0vw);}
+    100% {transform: translateX(-50vw);}
+}
+
+@keyframes bf1 {
+    0% {opacity: 0%;}
+    89% {opacity: 0%;}
+    90% {opacity: 100%;}
+    99% {opacity: 100%;}
+    100% {opacity: 0%;}
+}
+@keyframes bf2 {
+    0% {opacity: 0%;}
+    29% {opacity: 0%;}
+    30% {opacity: 100%;}
+    39% {opacity: 100%;}
+    40% {opacity: 0%;}
+    100% {opacity: 0%;}
+}
+@keyframes bf3 {
+    0% {opacity: 0%;}
+    79% {opacity: 0%;}
+    80% {opacity: 100%;}
+    89% {opacity: 100%;}
+    90% {opacity: 0%;}
+    100% {opacity: 0%;}
+}
+@keyframes bf4 {
+    0% {opacity: 100%;}
+    9% {opacity: 100%;}
+    10% {opacity: 0%;}
+    100% {opacity: 0%;}
+}
+@keyframes bf5 {
+    0% {opacity: 0%;}
+    59% {opacity: 0%;}
+    60% {opacity: 100%;}
+    69% {opacity: 100%;}
+    70% {opacity: 0%;}
+    100% {opacity: 0%;}
+}
+@keyframes bf6 {
+    0% {opacity: 0%;}
+    39% {opacity: 0%;}
+    40% {opacity: 100%;}
+    49% {opacity: 100%;}
+    50% {opacity: 0%;}
+    100% {opacity: 0%;}
+}
+@keyframes bf7 {
+    0% {opacity: 0%;}
+    79% {opacity: 0%;}
+    80% {opacity: 100%;}
+    89% {opacity: 100%;}
+    90% {opacity: 0%;}
+    100% {opacity: 0%;}
+}
+@keyframes bf8 {
+    0% {opacity: 0%;}
+    9% {opacity: 0%;}
+    10% {opacity: 100%;}
+    19% {opacity: 100%;}
+    20% {opacity: 0%;}
+    100% {opacity: 0%;}
+}
+@keyframes bf9 {
+    0% {opacity: 0%;}
+    49% {opacity: 0%;}
+    50% {opacity: 100%;}
+    59% {opacity: 100%;}
+    60% {opacity: 0%;}
+    100% {opacity: 0%;}
+}
+@keyframes bf10 {
+    0% {opacity: 0%;}
+    69% {opacity: 0%;}
+    70% {opacity: 100%;}
+    79% {opacity: 100%;}
+    80% {opacity: 0%;}
+    100% {opacity: 0%;}
+}
+@keyframes bf11 {
+    0% {opacity: 0%;}
+    39% {opacity: 0%;}
+    40% {opacity: 100%;}
+    49% {opacity: 100%;}
+    50% {opacity: 0%;}
+    100% {opacity: 0%;}
+}
+
+@keyframes mainP {
+    0% {transform: translateX(0vw); }
+    10% {}
+    100% {transform: translateX(-50vw);}
+}
+
+@keyframes forest {
+    0% {opacity: 100%;}
+    10% {opacity: 50%;}
+}
+
+@keyframes text_sb3 {
+    0% {transform: translateX(5vw);}
+    50% {transform: translateX(-5vw);}
+    100% {transform: translateX(5vw);}
+}
+
+@keyframes lrst1_p {
+    0% {transform: translateY(5vw); }
+    50% {transform: translateY(-5vw);}
+    100% {transform: translateY(5vw);}
+}
+@keyframes lrst2_p {
+    0% {transform: translateY(-5vw); }
+    50% {transform: translateY(5vw);}
+    100% {transform: translateY(-5vw);}
+}
+@keyframes lrst3_p {
+    0% {transform: translateX(-5vw); }
+    50% {transform: translateX(5vw);}
+    100% {transform: translateX(-5vw);}
+}
+@keyframes lrst4_p {
+    0% {transform: translateX(5vw); }
+    50% {transform: translateX(-5vw);}
+    100% {transform: translateX(5vw);}
+}
+
+@keyframes rrs {
+    0% {background: url(imgs/1Монтажная\ область\ 1.svg) center no-repeat;
+        background-size: contain;}
+    16% {background: url(imgs/1Монтажная\ область\ 1.svg) no-repeat center;
+        background-size: contain;}
+    17% {background: url(imgs/2Монтажная\ область\ 1.svg) no-repeat center;
+        background-size: contain;}
+    33% {background: url(imgs/2Монтажная\ область\ 1.svg) no-repeat center;
+        background-size: contain;}
+    34% {background: url(imgs/3Монтажная\ область\ 1.svg) no-repeat center;
+        background-size: contain;}
+    50% {background: url(imgs/3Монтажная\ область\ 1.svg) no-repeat center;
+        background-size: contain;}
+    51% {background: url(imgs/4Монтажная\ область\ 1.svg) no-repeat center;
+        background-size: contain;}
+    65% {background: url(imgs/4Монтажная\ область\ 1.svg) no-repeat center;
+        background-size: contain;}
+    66% {background: url(imgs/5Монтажная\ область\ 1.svg) no-repeat center;
+        background-size: contain;}
+    84% {background: url(imgs/5Монтажная\ область\ 1.svg) no-repeat center;
+        background-size: contain;}
+    85% {background: url(imgs/6Монтажная\ область\ 1.svg) no-repeat center;
+        background-size: contain;}
+    100% {background: url(imgs/6Монтажная\ область\ 1.svg) no-repeat center;
+        background-size: contain;}
+}
+
+@keyframes dbt {
+    0% {opacity: 0%;}
+    49% {opacity: 0%;}
+    50% {opacity: 100%;}
+    90% {opacity: 100%;}
+    99% {opacity: 100%;}
+    100% {opacity: 0%;}
+}
+
+@keyframes lbcube {
+    0% {background: url(imgs/cube/1Монтажная\ область\ 2.svg) center no-repeat;
+        background-size: contain;}
+    16% {background: url(imgs/cube/1Монтажная\ область\ 2.svg) no-repeat center;
+        background-size: contain;}
+    17% {background: url(imgs/cube/2Монтажная\ область\ 2.svg) no-repeat center;
+        background-size: contain;}
+    33% {background: url(imgs/cube/2Монтажная\ область\ 2.svg) no-repeat center;
+        background-size: contain;}
+    34% {background: url(imgs/cube/3Монтажная\ область\ 2.svg) no-repeat center;
+        background-size: contain;}
+    50% {background: url(imgs/cube/3Монтажная\ область\ 2.svg) no-repeat center;
+        background-size: contain;}
+    51% {background: url(imgs/cube/4Монтажная\ область\ 2.svg) no-repeat center;
+        background-size: contain;}
+    65% {background: url(imgs/cube/4Монтажная\ область\ 2.svg) no-repeat center;
+        background-size: contain;}
+    66% {background: url(imgs/cube/5Монтажная\ область\ 2.svg) no-repeat center;
+        background-size: contain;}
+    84% {background: url(imgs/cube/5Монтажная\ область\ 2.svg) no-repeat center;
+        background-size: contain;}
+    85% {background: url(imgs/cube/6Монтажная\ область\ 2.svg) no-repeat center;
+        background-size: contain;}
+    100% {background: url(imgs/cube/6Монтажная\ область\ 2.svg) no-repeat center;
+        background-size: contain;}
+    
+}

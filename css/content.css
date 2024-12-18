@@ -1,0 +1,560 @@
+@import url(font.css);
+@import url(adaptives.css);
+@import url(keyframes.css);
+
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    font-family: 'IBMPlexMono';
+    margin: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 100vw;
+    background: black;
+    position: relative;
+}
+
+/* ---------- hello block ------------- */
+
+.hello_block2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    animation-name: pics;
+    animation-duration: 1.5s;    
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+/* ----------перебивка------------*/
+
+.perebiv1 {
+    width: 120vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    color: white;
+    position: relative;
+}
+.text1 {
+    width: 1000vw;
+    animation: text1 10s linear infinite;
+}
+.boxes_block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 900vw;
+}
+.boxes_block_filled {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 900vw;
+}
+.per_box {
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+    background: url(imgs/box_unfilled.svg) no-repeat  center;
+    background-size: contain;
+    --duration: 3.5s
+}
+
+.bf1 {
+    animation: bf1 var(--duration) infinite;
+}
+.bf2 {
+    animation: bf2 var(--duration) infinite;
+}
+.bf3 {
+    animation: bf3 var(--duration) infinite;
+}
+.bf4 {
+    animation: bf4 var(--duration) infinite;
+}
+.bf5 {
+    animation: bf5 var(--duration) infinite;
+}
+.bf6 {
+    animation: bf6 var(--duration) infinite;
+}
+.bf7 {
+    animation: bf7 var(--duration) infinite;
+}
+.bf8 {
+    animation: bf8 var(--duration) infinite;
+}
+.bf9 {
+    animation: bf9 var(--duration) infinite;
+}
+.bf10 {
+    animation: bf10 var(--duration) infinite;
+}
+.bf11 {
+    animation: bf11 var(--duration) infinite;
+}
+
+/* ---------- mid main block (interactive) ------------*/
+
+
+
+.main_block {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* first sub block 1/3 - sb1 */
+
+
+.sub_block_1 {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+}
+
+.text_1block {
+    width: 1800px;
+    height: 100%;
+    background: url(imgs/bgblack.png);
+    margin-top: -40vh;
+    color: white;
+    overflow: hidden;
+    opacity: 1%;
+    transition: opacity 1s ease-out;
+    animation: mainP 10s linear infinite forwards;
+}
+.text_1block:hover {
+    opacity: 100%;
+}
+
+.subP {
+    opacity: 0%;
+}
+
+/* second sub block 2/3 - sb2 */
+
+.sub_block_2 {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+}
+.cube_mid {
+    background: white;
+}
+.img_sb2 {
+    width: fit-content;
+    height: fit-content;
+}
+.img2_sb2 {            
+    /* только для адаптивок */
+    width: fit-content;
+    height: fit-content;
+}
+
+/* third sub block 3/3 - sb3 */
+
+
+.sub_block_3 {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    overflow: hidden;
+}
+.pic_sb3 {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.img_sb3 {
+    width: fit-content;
+    height: fit-content;
+}
+
+.blocks_and_text_sb3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -40vh;
+}
+.blockt_sb3_bltext {
+    color: white;
+    text-align: justify;
+    animation: text_sb3 5s infinite ease-in-out;
+}
+.sb3_bl4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ---- left run square (text+div) - Lrs ------ */
+
+.lrs {
+    width: auto;
+    height: auto;
+    position: absolute;
+    margin-top: var(--margin-top_lrs);
+    margin-left: var(--margin-left_lrs);
+}
+.lrsT {
+    width: 45vw;
+    height: 45vw;
+    overflow: hidden;
+}
+/* Lrst1 */
+.lrst1 {
+    width: var(--width);
+    height: var(--height);
+    overflow: hidden;
+    margin-top: 1vw;
+    margin-left: -1vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.lrst1_p {
+    writing-mode: vertical-lr;
+    color: #ffffff;
+    height: 100vw;
+    white-space: nowrap;
+    animation: lrst1_p 5s infinite linear;
+}
+/* LrsT2 */
+.lrst2 {
+    width: 45vw;
+    height: 44vw;
+    overflow: hidden;
+    margin-top: -45vw;
+    margin-left: 1.1vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.lrst2_p {
+    writing-mode: vertical-rl;
+    color: #ffffff;
+    height: 100vw;
+    margin-left: 2vw;
+    white-space: nowrap;
+    animation: lrst2_p 5s infinite linear;
+}
+/* LrsT3 */
+.lrst3 {
+    width: 44vw;
+    height: 45vw;
+    overflow: hidden;
+    margin-top: -45.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.lrst3_p {
+    color: #ffffff;
+    width: 100vw;
+    white-space: nowrap;
+    animation: lrst3_p 5s infinite linear;
+}
+
+/* LrsT4 */
+.lrst4 {
+    width: 44vw;
+    height: 45vw;
+    overflow: hidden;
+    margin-top: -1.4vw;
+    margin-left: 0.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.lrst4_p {
+    color: #ffffff;
+    width: 100vw;
+    white-space: nowrap;
+    animation: lrst4_p 5s infinite linear;
+}
+.lrsD {
+    width: 44vw;
+    height: 44vw;
+    /* overflow: hidden; */
+    border: #ffffff solid 1px;
+    margin-top: -43vw;
+    margin-left: 2vw;
+}
+
+/* ---- right run square - Rrs ------ */
+
+.rrs {
+    width: var(--size_rrs);
+    height: var(--size_rrs);
+    position: absolute;
+    animation: rrs 1s infinite linear;
+    background: rrs no-repeat center cover;
+    margin-left: var(--margin_left_rrs);
+    margin-top: var(--margin_top_rrs);
+}
+
+/* ---- white static squares - sqr ------ */
+
+.sqr1 {
+    width: 7vw;
+    height: 7vw;
+    transition: 1s;
+    position: absolute;
+    left: 2vw;
+    top: 2vw;
+    background: white;
+    opacity: 100%;
+}
+.sqr1:hover {
+    opacity: 1%;
+}
+.sqr2 {
+    width: 7vw;
+    height: 7vw;
+    position: absolute;
+    right: 2vw;
+    top: 2vw;
+    background: white;
+    opacity: 100%;
+    transition: 1s;
+}
+.sqr2:hover {
+    opacity: 1%;
+}
+.sqr3 {
+    width: 7vw;
+    height: 7vw;
+    position: absolute;
+    left: 2vw;
+    bottom: 2vw;
+    background: white;
+    opacity: 100%;
+    transition: 1s;
+}
+.sqr3:hover {
+    opacity: 1%;
+}
+
+/* ---- white static text about decibels - db text - dbt------ */
+
+.first_dbt_block {
+    position: absolute;
+    color: #ffffff;
+}
+.dbt{
+    color: #ffffff;
+    margin-top: -1vw;
+    animation: dbt 2s infinite;
+    font-size: var(--font_adapt);
+}
+.dbtext1 {
+    animation-delay: 0.1s;
+}
+.dbtext2 {
+    animation-delay: 0.2s;
+}
+.dbtext3 {
+    animation-delay: 0.3s;
+}
+.dbtext4 {
+    animation-delay: 0.4s;
+}
+.dbtext5 {
+    animation-delay: 0.5s;
+}
+.dbtext6 {
+    animation-delay: 0.6s;
+}
+.dbtext7 {
+    animation-delay: 0.7s;
+}
+.dbtext8 {
+    animation-delay: 0.8s;
+}
+.dbtext9 {
+    animation-delay: 0.9s;
+}
+.sec_dbt_block {
+    position: absolute;
+    color: #ffffff;
+    font-size: var(--font_adapt);
+}
+.dbtext11 {
+    animation-delay: 1s;
+    text-align: right;
+}
+.dbtext12 {
+    animation-delay: 1.1s;
+    text-align: right;
+}
+.dbtext13 {
+    animation-delay: 1.2s;
+    text-align: right;
+}
+.dbtext14 {
+    animation-delay: 1.3s;
+    text-align: right;
+}
+.dbtext15 {
+    animation-delay: 1.4s;
+    text-align: right;
+}
+.third_dbt_block  {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    position: absolute;
+    right: 3vw;
+    top: 3vw;
+    font-size: var(--font_adapt);
+}
+.dbtext20 {
+    animation-delay: 1.5s;
+}
+.dbtext19 {
+    animation-delay: 1.6s;
+}
+.dbtext18 {
+    animation-delay: 1.7s;
+}
+.dbtext17 {
+    animation-delay: 1.8s;
+}
+.dbtext16 {
+    animation-delay: 1.9s;
+}
+
+/* ---- perebivka 2 ------ */
+.perebiv2 {
+    width: 120vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    color: white;
+    position: relative;
+}
+.text1 {
+    width: 1000vw;
+    animation: text1 10s linear infinite;
+}
+.boxes_block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 900vw;
+}
+.boxes_block_filled {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 900vw;
+}
+.per_box {
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+    background: url(imgs/box_unfilled.svg) no-repeat  center;
+    background-size: contain;
+    --duration: 3.5s
+}
+
+.bf1 {
+    animation: bf1 var(--duration) infinite;
+}
+.bf2 {
+    animation: bf2 var(--duration) infinite;
+}
+.bf3 {
+    animation: bf3 var(--duration) infinite;
+}
+.bf4 {
+    animation: bf4 var(--duration) infinite;
+}
+.bf5 {
+    animation: bf5 var(--duration) infinite;
+}
+.bf6 {
+    animation: bf6 var(--duration) infinite;
+}
+.bf7 {
+    animation: bf7 var(--duration) infinite;
+}
+.bf8 {
+    animation: bf8 var(--duration) infinite;
+}
+.bf9 {
+    animation: bf9 var(--duration) infinite;
+}
+.bf10 {
+    animation: bf10 var(--duration) infinite;
+}
+.bf11 {
+    animation: bf11 var(--duration) infinite;
+}
+
+/* -------------- last block --------------- */
+
+.last_block {
+    width: 100vw;
+    height: var(--height_lb);
+    position: relative;
+    background: url(imgs/img_bg_lastblock.png) center;
+    background-size: cover;
+    overflow: hidden;
+}
+.lbcube {
+    position: absolute;
+    animation: lbcube 1s linear infinite;
+}
+.lb {
+    color: #ffffff;
+    position: absolute;
+}
+.decibeli {
+    top: 0vw;
+    left: 0.5vw;
+    font-size: var(--font_adapt);
+}
+.group {
+    bottom: 0vw;
+    left: 0.5vw;
+    font-size: var(--font_adapt);
+}
+.data {
+    top: 0vw;
+    right: 0.5vw;
+    font-size: var(--font_adapt);
+}
+.adress {
+    bottom: 0vw;
+    right: 0.5vw;
+    font-size: var(--font_adapt);
+}

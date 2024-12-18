@@ -1,0 +1,620 @@
+@media screen and (min-width: 1921px) {
+    .main_block{
+        --font_adapt: 24px;
+    }
+
+    .logo {
+    width: 15vw;
+    }
+    .text1 {
+    font-size: 24px;
+    margin: 8vw;
+    }
+    .per_box {
+    width: 10vw;
+    height: auto;
+    }
+    .boxes_block {
+    height: 12vh;
+    margin: -5vw;   /* ??? посмотреть */
+    }
+    .box_filled {
+    width: 10vw;
+    }
+    .sub_block_1 {
+    width: 58vw;
+    }
+    .mainP {
+    margin: -2vw;
+    width: 300vw;
+    font-size: 24px;
+    }
+    .forest {
+    /* width: 60vw; */
+    max-width: 100%;
+    max-height: 100%;
+    }
+    /*sb2*/
+    .sub_block_2 {
+    height: 16vw;
+    justify-content: flex-end;
+    overflow: hidden;
+    }
+    .cube_mid {
+    width: 16%;
+    height: 100%;
+    }
+    .pic_sb2 {
+    width: 42%;
+    height: 100%;
+    overflow: hidden;
+    }
+    .pic2_sb2 {
+    width: 42%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0%;
+    }
+    /*sb3*/
+    .sub_block_3 {
+        font-size: 24px;
+    }
+    .pic_sb3 {
+    width: 58vw;
+    }
+
+    .blocks_and_text_sb3 {
+        width: 400vw;
+        height: 40vh;
+        margin-left: -150vw;
+    }
+    .block_sb3 {
+        width: 15vw;
+        height: 15vw;
+        margin: 2vw;
+        border: 1px white solid;
+    }
+    .blockt_sb3_bltext {
+        width: 35vw;
+        margin: 3vw;
+    }
+    .lrs {
+        font-size: 28px;
+        opacity: 100%;
+        --margin-top_lrs: 10vh;
+        --margin-left_lrs: -18vw;
+    }
+    .lrst1 {
+        --width: 45vw;
+        --height: 44vw;
+    }
+    .rrs {
+        --size_rrs: 42vw;
+        --margin_left_rrs: 60vw;
+        --margin_top_rrs: 0vh;
+    }
+    .first_dbt_block {
+        font-size: 24px;
+    }
+    .sec_dbt_block {
+        position: absolute;
+        color: #ffffff;
+        top: 37vw;
+        right: 1vw;
+        font-size: var(--font_adapt);
+    }
+    .lb {
+        --font_adapt: 24px;
+    }
+    .last_block {
+        --height_lb: 35vw;
+    }
+    .lbcube {
+        top: 20%;
+        left: 40vw;
+        width: 20vw;
+        height: 20vw;
+    }
+}
+
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    
+    .main_block{
+        --font_adapt: 24px;
+    }
+    .logo {
+        width: 15vw;
+    }
+    .text1 {
+        font-size: 24px;
+        margin: 7vw;
+    }
+    .per_box {
+        width: 10vw;
+        height: auto;
+    }
+    .boxes_block {
+        height: 12vh;
+        margin: -5vw;   /* ??? посмотреть */
+    }
+    .box_filled {
+        width: 10vw;
+    }
+    .sub_block_1 {
+        width: 58vw;
+    }
+    .mainP {
+        margin: -2vw;
+        width: 300vw;
+        font-size: 24px;
+    }
+    .forest {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    /*sb2*/
+    .sub_block_2 {
+        height: 16vw;
+        justify-content: flex-end;
+        overflow: hidden;
+    }
+    .cube_mid {
+        width: 16%;
+        height: 100%;
+    }
+    .pic_sb2 {
+        width: 42%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .pic2_sb2 {
+        width: 42%;
+        height: 100%;
+        overflow: hidden;
+        opacity: 0%;
+    }
+    /*sb3*/
+    .sub_block_3 {
+        font-size: 24px;
+    }
+    .pic_sb3 {
+        width: 58vw;
+    }
+
+    .blocks_and_text_sb3 {
+        width: 400vw;
+        height: 40vh;
+        margin-left: -150vw;
+    }
+    .block_sb3 {
+        width: 15vw;
+        height: 15vw;
+        margin: 2vw;
+        border: 1px white solid;
+    }
+    .blockt_sb3_bltext {
+        width: 35vw;
+        margin: 3vw;
+    }
+    .lrs {
+        font-size: 24px;
+        opacity: 100%;
+        --margin-top_lrs: 10vh;
+        --margin-left_lrs: -18vw;
+    }
+    .lrst1 {
+        --width: 45vw;
+        --height: 44vw;
+    }
+    .rrs {
+        --size_rrs: 42vw;
+        --margin_left_rrs: 60vw;
+        --margin_top_rrs: 0vh;
+    }
+    .first_dbt_block {
+        font-size: 24px;
+    }
+    .sec_dbt_block {
+        position: absolute;
+        color: #ffffff;
+        top: 37vw;
+        right: 1vw;
+        font-size: var(--font_adapt);
+    }
+    .lb {
+        --font_adapt: 16px;
+    }
+    .last_block {
+        --height_lb: 35vw;
+    }
+    .lbcube {
+        top: 20%;
+        left: 40vw;
+        width: 20vw;
+        height: 20vw;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+    
+
+    .main_block{
+        --font_adapt: 16px;
+    }
+    .logo {
+        width: 20vw;
+    }
+    .perebiv1 {
+        margin-top: -3vw;
+    }
+    .perebiv2 {
+        margin-top: -3vw;
+    }
+    .text1 {
+        font-size: 20px;
+        /* margin: -0.8vw; */
+    }
+    .per_box {
+        width: 10vw;
+        height: auto;
+    }
+    .boxes_block {
+        height: 15vh;
+        margin: 0.7vw;
+    }
+    .box_filled {
+        width: 10vw;
+    }
+    .sub_block_1 {
+        width: 58vw;
+    }
+    .mainP {
+        margin: -2vw;
+        width: 500vw;
+        font-size: 20px;
+    }
+    .forest {
+        width: 100%;
+        height: 100%;
+    }
+    /*sb2*/
+    .sub_block_2 {
+        height: 16vw;
+        justify-content: flex-end;
+        overflow: hidden;
+    }
+    .cube_mid {
+        width: 16%;
+        height: 100%;
+    }
+    .pic_sb2 {
+        width: 42%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .pic2_sb2 {
+        width: 42%;
+        height: 100%;
+        overflow: hidden;
+        opacity: 0%;
+    }
+    /*sb3*/
+    .sub_block_3 {
+        font-size: 16px;
+    }
+    .pic_sb3 {
+        width: 58vw;
+    }
+
+    .blocks_and_text_sb3 {
+        width: 400vw;
+        height: 40vh;
+        margin-left: -150vw;
+    }
+    .block_sb3 {
+        width: 15vw;
+        height: 15vw;
+        margin: 2vw;
+        border: 1px white solid;
+    }
+    .blockt_sb3_bltext {
+        width: 35vw;
+        margin: 3vw;
+    }
+    .lrs {
+        font-size: 16px;
+        opacity: 100%;
+        --margin-top_lrs: 16vh;
+        --margin-left_lrs: -18vw;
+    }
+    .lrst1 {
+        --width: 45vw;
+        --height: 44vw;
+    }
+    .rrs {
+        --size_rrs: 40vw;
+        --margin_left_rrs: 59vw;
+        --margin_top_rrs: 1vh;
+    }
+    .first_dbt_block {
+        font-size: 16px;
+        top: 22vw;
+        left: 1vw;
+    }
+    .sec_dbt_block {
+        position: absolute;
+        color: #ffffff;
+        top: 36vw;
+        right: 1vw;
+        font-size: var(--font_adapt);
+    }
+    .lb {
+        --font_adapt: 16px;
+    }
+    .last_block {
+        --height_lb: 35vw;
+    }
+    .lbcube {
+        top: 20%;
+        left: 40vw;
+        width: 20vw;
+        height: 20vw;
+    }
+}
+
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    
+
+    .main_block{
+        --font_adapt: 14px;
+    }
+    .logo {
+        width: 50vw;
+    }
+    .perebiv1 {
+        margin: 0.5vw;
+    }
+    .perebiv2 {
+        margin: 0.5vw;
+    }
+    .text1 {
+        font-size: 14px;
+        margin: -1vw;
+    }
+    .per_box {
+        width: 20vw;
+        height: auto;
+    }
+    .boxes_block {
+        margin: 2vw;
+        height: 12vh;
+    }
+    .box_filled {
+        width: 15vw;
+    }
+    .sub_block_1 {
+        width: 60vw;
+
+    }
+    .mainP {
+        margin: -5vw;
+        width: 600vw;
+        font-size: 14px;
+    }
+    .forest {
+        width: 100%;
+        height: 100%;
+    }
+    /*sb2*/
+    .sub_block_2 {
+        height: 20vw;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .cube_mid {
+        width: 20%;
+        height: 100%;
+    }
+    .pic_sb2 {
+        width: 40%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .pic2_sb2 {
+        width: 40%;
+        height: 100%;
+        overflow: hidden;
+        opacity: 0%;
+    }
+    /*sb3*/
+    .sub_block_3 {
+        font-size: 14px;
+    }
+    .pic_sb3 {
+        width: 60vw;
+    }
+
+    .blocks_and_text_sb3 {
+        width: 400vw;
+        height: 40vh;
+        margin-left: -150vw;
+    }
+    .block_sb3 {
+        width: 15vw;
+        height: 15vw;
+        margin: 1vw;
+        border: 1px white solid;
+    }
+    .blockt_sb3_bltext {
+        width: 50vw;
+        margin: 4vw;
+    }
+    .lrs {
+        font-size: 14px;
+        opacity: 100%;
+        --margin-top_lrs: 30vh;
+        --margin-left_lrs: -18vw;
+    }
+    .lrst1 {
+        --width: 42vw;
+        --height: 42vw;
+    }
+    .rrs {
+        --size_rrs: 42vw;
+        --margin_left_rrs: 60vw;
+        --margin_top_rrs: 15vh;
+    }
+    .first_dbt_block {
+        font-size: 14px;
+    }
+    .first_dbt_block {
+        font-size: 16px;
+        top: 22vw;
+        left: 1vw;
+    }
+    .sec_dbt_block {
+        position: absolute;
+        color: #ffffff;
+        top: 55vw;
+        right: 1vw;
+        font-size: var(--font_adapt);
+    }
+    .lb {
+        --font_adapt: 14px;
+    }
+    .last_block {
+        --height_lb: 100vw;
+        margin-top: 3vh;
+    }
+    .perebiv2{
+        margin-top: 3vh;
+    }
+    .lbcube {
+        top: 25%;
+        left: 25vw;
+        width: 50vw;
+        height: 50vw;
+    }
+
+}
+
+
+@media screen and (max-width: 414px) {
+    
+
+    .main_block{
+        --font_adapt: 14px;
+    }
+    .logo {
+        width: 60vw;
+    }
+    .perebiv1 {
+        margin: 2vh;
+    }
+    .perebiv2 {
+        margin: 2vh;
+    }
+    .text1 {
+        font-size: 14px;
+    }
+    .per_box {
+        width: 30vw;
+        height: auto;
+    }
+    .boxes_block {
+        margin: 1vw;
+    }
+    .sub_block_1 {
+        width: 100vw;
+    }
+    .mainP {
+        margin: -8vw;
+        width: 800vw;
+        font-size: 14px;
+    }
+    .forest {
+        width: 100%;
+        height: 100%;
+    }
+    /*sb2*/
+    .sub_block_2 {
+        height: 26vw;
+        justify-content: flex-end;
+        overflow: hidden;
+        margin-top: 27vh;
+        margin-bottom: 27vh;
+    }
+    .cube_mid {
+        width: 26%;
+        height: 100%;
+    }
+    .pic_sb2 {
+        width: 37%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .pic2_sb2 {
+        width: 37%;
+        height: 100%;
+        overflow: hidden;
+        opacity: 100%;
+    }
+    /*sb3*/
+    .pic_sb3 {
+        width: 75vw;
+    }
+    .sub_block_3 {
+        font-size: 14px;
+    }
+
+    .blocks_and_text_sb3 {
+        width: 400vw;
+        height: 40vh;
+        margin-left: -146vw;
+    }
+    .blockt_sb3_bltext {
+        width: 90vw;
+        margin-top: -16vw;
+    }
+    .sb3_bl4 {
+        opacity: 0%;
+    }
+    .lrs {
+        font-size: 14px;
+        opacity: 0%;
+    }
+    .rrs {
+        --size_rrs: 100vw;
+        --margin_left_rrs: 0vw;
+        --margin_top_rrs: 48vh;
+    }
+    .first_dbt_block {
+        font-size: 14px;
+        top: 26vw;
+        left: 1vw;
+    }
+    .sec_dbt_block {
+        top: 171vw;
+        right: 1vw;
+    }
+    .lb {
+        --font_adapt: 14px;
+    }
+    .perebiv2{
+        margin-top: 3vh;
+    }
+    .last_block {
+        --height_lb: 100vw;
+        margin-top: 3vh;
+    }
+    .lbcube {
+        top: 20%;
+        left: 20vw;
+        width: 60vw;
+        height: 60vw;
+    }
+}
+
